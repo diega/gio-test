@@ -1,0 +1,11 @@
+AC_INIT([giotest], 0.1-SNAPSHOT)
+AM_INIT_AUTOMAKE
+AC_PROG_CC
+AC_CONFIG_FILES([
+ Makefile
+ src/Makefile
+])
+PKG_CHECK_MODULES([GLIB], [glib-2.0])
+PKG_CHECK_MODULES([GIO], [gio-2.0])
+
+AC_OUTPUT
