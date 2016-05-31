@@ -7,5 +7,6 @@ AC_CONFIG_FILES([
 ])
 PKG_CHECK_MODULES([GLIB], [glib-2.0])
 PKG_CHECK_MODULES([GIO], [gio-2.0])
+PKG_CHECK_MODULES([PROTOBUF_C], [libprotobuf-c >= 1.0.0])
 
 AC_OUTPUT
